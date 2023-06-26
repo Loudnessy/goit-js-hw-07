@@ -20,6 +20,7 @@ list.addEventListener("click", onClick)
 
 
 function onClick(evt){
+  evt.preventDefault()
     if (evt.target === evt.currentTarget) {
         return
     }
